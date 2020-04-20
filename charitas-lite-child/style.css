@@ -1,0 +1,127 @@
+/*
+Theme Name: Charitas Lite Child
+Theme URI: https://wplook.com/theme/charitas-charity-nonprofit-wordpress-theme/
+Author: WPlook Studio - Deadpikle (child)
+Author URI: https://wplook.com/
+Description: WordPress Child Theme for Charity, NonProfit Organizations, Foundation. Charitas Lite is a simple and clean but still professional theme that is best suited for Charity, NGO (Non-governmental organization), foundations, churches, political organizations etc. The theme is ideal for organizations that want a modern and eye catching website to tell their story and raise funds. Now, The theme is compatible with WordPress 5+, Gutenberg BLocks, WooCommerce and PHP 7.3+. If you want to contribute to this theme or you found a bug, please submit an issue on <a href="https://github.com/victoras/charitas-lite">GitHub</a>. <a href="http://themes.wplook.com/?themename=charitas-lite">Theme Demo</a>.
+Version: 1.0.10-Child
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, front-page-post-form, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: charitas-lite
+Template: charitas-lite
+*/
+
+.phone {
+	color: white;
+}
+
+#footer-widget-area a {
+	color: white;
+}
+
+.flex-caption h1, .flex-caption h2 {
+	color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.flex-content .flex-button a {
+	background-color: lightblue;
+	border: 1px solid black !important;
+	color: black !important;
+	border-radius: 4px;
+}
+
+.flex-content .flex-button a:hover {
+	color: white !important;
+}
+
+.flex-content .flex-button i {
+	font-size: 13px !important;
+}
+
+.flex-control-thumbs {
+	z-index: 15 !important;
+}
+
+.mean-bar {
+	margin-top: 0em !important;
+}
+
+#sticky_navigation{
+	z-index:4000 !important;
+	/* material design shadow: https://codepen.io/sdthornton/pen/wBZdXq */
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#site-title img {
+	width: 80%;
+}
+
+#sticky_navigation {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+.no-shrunk-header #site-title img {
+	width: 80%;
+  	transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+  	-webkit-transition: all 0.5s ease-in-out;
+  	-o-transition: all 0.5s ease-in-out;
+}
+
+.shrunk-header #site-title img {
+	width: 35%;
+  	transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+  	-webkit-transition: all 0.5s ease-in-out;
+  	-o-transition: all 0.5s ease-in-out;
+}
+
+/* staff listing */
+
+img.staff-member-photo {
+	max-height: 225px;
+	max-width: 225px;
+	border-radius: 1em;
+}
+
+.staff-name {
+	margin-top: 0px;
+	font-size: 28px;
+	color: black;
+}
+
+.staff-member, .staff-member.odd, .staff-member.even {
+	margin-top: 1em !important;
+	margin-bottom: 1em !important;
+	padding-bottom: 1em !important;
+}
+
+.staff-name {
+	font-size: 30px;
+}
+
+.staff-position {
+	font-size: 22px;
+}
+
+.staff-bio {
+	font-size: 16px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 0;
+}
+
+.staff-email {
+	font-size: 16px;
+}
+
+.inner {
+	padding-top: 2em !important;
+	padding-bottom: 4em !important;
+}
+
+/* end staff listing */
