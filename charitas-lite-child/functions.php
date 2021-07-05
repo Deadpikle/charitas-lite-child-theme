@@ -10,8 +10,8 @@ function my_theme_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
-    wp_enqueue_script('my-base', get_stylesheet_directory_uri() . '/js/base.js', array ( 'jquery' ), 1.0, false);
-    wp_enqueue_script('my-meanmenu', get_stylesheet_directory_uri() . '/js/jquery.meanmenu.js', array ( 'jquery' ), 1.0, false);
+    wp_enqueue_script('my-base', get_stylesheet_directory_uri() . '/js/base.js', array ( 'jquery' ), 2.0, false);
+    wp_enqueue_script('my-meanmenu', get_stylesheet_directory_uri() . '/js/jquery.meanmenu.js', array ( 'jquery' ), 2.0, false);
 }
 // .. for some reason this needs to be separate with a higher # to run after the base theme thing so we can properly remove the base theme js
 // https://stackoverflow.com/a/29193637/3938401
