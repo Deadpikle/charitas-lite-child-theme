@@ -97,33 +97,31 @@
 		</div>
 		<!-- /#toolbar -->
 
-		<header id="branding" class="site-header" role="banner">
-			<div id="sticky_navigation">
-				<div class="container_16" id="header-container">
-					<hgroup class="grid_5">
-							<h1 id="site-title">
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?> - <?php bloginfo('description'); ?>" rel="home">
-								<?php if ( get_theme_mod('wplook_logo') ){ ?>
-									<img src="<?php echo get_theme_mod('wplook_logo') ?>">
-								<?php } else {
-									bloginfo('name');
-								}?>
-								</a>
-							</h1>
-								<h2 id="site-description"><?php bloginfo('description'); ?></h2>
-					</hgroup>
+		<header id="branding" class="sticky_navigation site-header" role="banner">
+			<div class="container_16" id="header-container">
+				<hgroup class="grid_5">
+						<h1 id="site-title">
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?> - <?php bloginfo('description'); ?>" rel="home">
+							<?php if ( get_theme_mod('wplook_logo') ){ ?>
+								<img src="<?php echo get_theme_mod('wplook_logo') ?>">
+							<?php } else {
+								bloginfo('name');
+							}?>
+							</a>
+						</h1>
+							<h2 id="site-description"><?php bloginfo('description'); ?></h2>
+				</hgroup>
 
-					<nav role="navigation" class="site-navigation main-navigation grid_11" id="site-navigation">
-						<?php wp_nav_menu( array('menu_class' => 'nav-menu',  'theme_location' => 'primary' )); ?>
-					</nav>
+				<nav role="navigation" class="site-navigation main-navigation grid_11" id="site-navigation">
+					<?php wp_nav_menu( array('menu_class' => 'nav-menu',  'theme_location' => 'primary' )); ?>
+				</nav>
 
-					<!-- Mobile navigation -->
+				<!-- Mobile navigation -->
 
-					<div class="grid_16 mob-nav"></div>
+				<div class="grid_16 mob-nav"></div>
 
-					<!-- .site-navigation .main-navigation -->
-					<div class="clear"></div>
-				</div>
+				<!-- .site-navigation .main-navigation -->
+				<div class="clear"></div>
 			</div>
 		</header>
 		<!-- #masthead .site-header -->
